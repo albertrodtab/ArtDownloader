@@ -97,6 +97,11 @@ public class DownloadController implements Initializable {
         }
     }
 
+    public void delete() {
+        if (file != null) {
+            file.delete();
+        }
+    }
 
 
     private long delay() {

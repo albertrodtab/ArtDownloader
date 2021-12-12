@@ -8,29 +8,85 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="364.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="388.0" prefWidth="415.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Label fx:id="lbNombre" prefHeight="17.0" prefWidth="311.0" text="Descarga" />
+      <Label fx:id="lbNombre" alignment="TOP_LEFT" prefHeight="17.0" prefWidth="311.0" text="Descarga">
+         <VBox.margin>
+            <Insets top="5.0" />
+         </VBox.margin>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding></Label>
       <TextField fx:id="tfUrl">
          <VBox.margin>
-            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+            <Insets bottom="5.0" top="5.0" />
          </VBox.margin>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
       </TextField>
-      <HBox prefHeight="79.0" prefWidth="154.0">
+      <HBox alignment="TOP_CENTER" prefHeight="27.0" prefWidth="161.0">
          <children>
-            <Button fx:id="btStart" mnemonicParsing="false" onAction="#start" text="Iniciar" />
-            <Button fx:id="btStop" mnemonicParsing="false" onAction="#stop" text="Parar" />
-            <Button mnemonicParsing="false" text="Eliminar" />
+            <Button fx:id="btStart" mnemonicParsing="false" onAction="#start" text="Iniciar">
+               <HBox.margin>
+                  <Insets left="10.0" right="10.0" />
+               </HBox.margin>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding></Button>
+            <Button fx:id="btStop" mnemonicParsing="false" onAction="#stop" text="Parar">
+               <HBox.margin>
+                  <Insets left="10.0" right="10.0" />
+               </HBox.margin>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding></Button>
+            <Button fx:id="btDelete" mnemonicParsing="false" onAction="#delete" text="Eliminar">
+               <HBox.margin>
+                  <Insets left="10.0" right="10.0" />
+               </HBox.margin>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding></Button>
          </children>
+         <VBox.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </VBox.margin>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
       </HBox>
-      <VBox prefHeight="100.0" prefWidth="100.0">
+      <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="373.0">
          <children>
-            <Label fx:id="lbDelay" text="Tiempo de espera" />
-            <TextField fx:id="delay" />
+            <Label fx:id="lbDelay" alignment="CENTER" contentDisplay="CENTER" text="Tiempo de espera">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin></Label>
+            <TextField fx:id="delay" alignment="CENTER">
+               <VBox.margin>
+                  <Insets bottom="20.0" top="5.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding></TextField>
+            <ProgressBar fx:id="pbProgress" prefHeight="36.0" prefWidth="324.0" progress="0.0">
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </ProgressBar>
+            <Label fx:id="lbStatus" alignment="CENTER" prefHeight="17.0" prefWidth="325.0">
+               <VBox.margin>
+                  <Insets bottom="5.0" top="5.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </Label>
          </children>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
       </VBox>
-      <ProgressBar fx:id="pbProgress" prefHeight="40.0" prefWidth="324.0" progress="0.0" />
-      <Label fx:id="lbStatus" prefHeight="17.0" prefWidth="325.0" />
    </children>
    <padding>
       <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
