@@ -6,6 +6,8 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.control.*;
 import javafx.scene.layout.VBox;
+import javafx.stage.DirectoryChooser;
+import javafx.stage.Stage;
 
 import java.io.File;
 import java.io.IOException;
@@ -28,8 +30,17 @@ public class AppController {
     public ExecutorService executor = Executors.newFixedThreadPool(2);
 
     @FXML
-    private ScrollPane sp;
+    private ScrollPane scrollPane;
     public File file;
+
+
+    /*Este método me permite cambiar el directorio por defecto*/
+    @FXML
+    private void changeDirectory (ActionEvent event) {
+        DirectoryChooser directoryChooser = new DirectoryChooser();
+        Stage stage = (Stage) scrollPane.getScene().getWindow();
+        file = directoryChooser.showDialog(stage);
+    }
 
 
     public AppController(){

@@ -62,6 +62,7 @@ public class DownloadTask extends Task<Integer> {
         updateProgress(1, 1);
         updateMessage("100 %");
         fileOutputStream.close();
+        logger.trace("Descarga " + url.toString() + " finalizada");
         return null;
     }
 }
