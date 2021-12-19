@@ -1,0 +1,32 @@
+19:19:13.726 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Creado: https://es.pngtree.com/freepng/christmas-cartoon-christmas-cartoon-christmas-cute-old-man-christmas_3818965.html
+19:19:39.200 [pool-2-thread-1] TRACE com.alberto.downloader.DownloadController - Descarga https://es.pngtree.com/freepng/christmas-cartoon-christmas-cartoon-christmas-cute-old-man-christmas_3818965.html iniciada
+19:19:41.291 [pool-2-thread-1] TRACE com.alberto.downloader.DownloadController - Descarga https://es.pngtree.com/freepng/christmas-cartoon-christmas-cartoon-christmas-cute-old-man-christmas_3818965.html finalizada
+19:20:13.230 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Creado: https://es.pngtree.com/freepng/christmas-cartoon-christmas-cartoon-christmas-cute-old-man-christmas_3818965.html
+19:20:28.017 [pool-2-thread-2] TRACE com.alberto.downloader.DownloadController - Descarga https://es.pngtree.com/freepng/christmas-cartoon-christmas-cartoon-christmas-cute-old-man-christmas_3818965.html iniciada
+19:20:29.526 [pool-2-thread-2] TRACE com.alberto.downloader.DownloadController - Descarga https://es.pngtree.com/freepng/christmas-cartoon-christmas-cartoon-christmas-cute-old-man-christmas_3818965.html finalizada
+19:23:51.076 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Creado: https://es.pngtree.com/freepng/christmas-cartoon-christmas-cartoon-christmas-cute-old-man-christmas_3818965.html
+19:24:01.369 [pool-2-thread-1] TRACE com.alberto.downloader.DownloadController - Descarga https://es.pngtree.com/freepng/christmas-cartoon-christmas-cartoon-christmas-cute-old-man-christmas_3818965.html iniciada
+19:24:04.339 [pool-2-thread-1] TRACE com.alberto.downloader.DownloadController - Descarga https://es.pngtree.com/freepng/christmas-cartoon-christmas-cartoon-christmas-cute-old-man-christmas_3818965.html finalizada
+19:35:16.466 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Creado: https://es.pngtree.com/freepng/christmas-cartoon-christmas-cartoon-christmas-cute-old-man-christmas_3818965.html
+19:40:52.439 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Creado: https://es.pngtree.com/freepng/christmas-cartoon-christmas-cartoon-christmas-cute-old-man-christmas_3818965.html
+19:41:01.470 [pool-2-thread-1] TRACE com.alberto.downloader.DownloadController - Descarga https://es.pngtree.com/freepng/christmas-cartoon-christmas-cartoon-christmas-cute-old-man-christmas_3818965.html iniciada
+19:41:05.312 [pool-2-thread-1] TRACE com.alberto.downloader.DownloadController - Descarga https://es.pngtree.com/freepng/christmas-cartoon-christmas-cartoon-christmas-cute-old-man-christmas_3818965.html finalizada
+19:41:15.773 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Creado: https://es.pngtree.com/freepng/christmas-cartoon-christmas-cartoon-christmas-cute-old-man-christmas_3818965.html
+19:41:19.544 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Creado: https://es.pngtree.com/freepng/christmas-cartoon-christmas-cartoon-christmas-cute-old-man-christmas_3818965.html
+20:22:11.458 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Creado:  @FXML    public void stop(ActionEvent event) {        stop();    }
+18:28:35.814 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Creado: https://png.pngtree.com/png-clipart/20190617/original/pngtree-cartoon-christmas-cartoon-christmas-snowman-christmas-tree-illustration-png-image_3891095.jpg
+18:29:48.121 [pool-2-thread-1] TRACE com.alberto.downloader.DownloadController - Descarga https://png.pngtree.com/png-clipart/20190617/original/pngtree-cartoon-christmas-cartoon-christmas-snowman-christmas-tree-illustration-png-image_3891095.jpg iniciada
+18:29:49.993 [pool-2-thread-1] TRACE com.alberto.downloader.DownloadController - Descarga https://png.pngtree.com/png-clipart/20190617/original/pngtree-cartoon-christmas-cartoon-christmas-snowman-christmas-tree-illustration-png-image_3891095.jpg finalizada
+18:31:50.929 [pool-2-thread-2] TRACE com.alberto.downloader.DownloadController - Descarga https://png.pngtree.com/png-clipart/20190617/original/pngtree-cartoon-christmas-cartoon-christmas-snowman-christmas-tree-illustration-png-image_3891095.jpg iniciada
+18:31:52.635 [pool-2-thread-2] TRACE com.alberto.downloader.DownloadController - Descarga https://png.pngtree.com/png-clipart/20190617/original/pngtree-cartoon-christmas-cartoon-christmas-snowman-christmas-tree-illustration-png-image_3891095.jpg finalizada
+13:23:54.970 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Creado: https://git.kernel.org/torvalds/t/linux-5.16-rc4.tar.gz
+13:23:55.045 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Creado: 
+13:23:55.090 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Creado: https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.4.294.tar.xz
+13:23:55.111 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Creado: 
+13:23:55.149 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Creado: https://png.pngtree.com/png-clipart/20210309/original/pngtree-christmas-christmas-cartoon-joyful-christmas-png-image_5909752.jpg
+13:24:26.801 [pool-2-thread-1] TRACE com.alberto.downloader.DownloadController - Descarga https://git.kernel.org/torvalds/t/linux-5.16-rc4.tar.gz iniciada
+13:24:47.807 [pool-2-thread-2] TRACE com.alberto.downloader.DownloadController - Descarga https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.4.294.tar.xz iniciada
+13:25:51.407 [pool-2-thread-2] TRACE com.alberto.downloader.DownloadController - Descarga https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.4.294.tar.xz cancelada
+13:25:51.409 [pool-2-thread-2] TRACE com.alberto.downloader.DownloadController - Descarga https://png.pngtree.com/png-clipart/20210309/original/pngtree-christmas-christmas-cartoon-joyful-christmas-png-image_5909752.jpg iniciada
+13:25:57.811 [pool-2-thread-2] TRACE com.alberto.downloader.DownloadController - Descarga https://png.pngtree.com/png-clipart/20210309/original/pngtree-christmas-christmas-cartoon-joyful-christmas-png-image_5909752.jpg finalizada
+13:26:00.534 [pool-2-thread-1] TRACE com.alberto.downloader.DownloadController - Descarga https://git.kernel.org/torvalds/t/linux-5.16-rc4.tar.gz cancelada
