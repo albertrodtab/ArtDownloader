@@ -18,9 +18,7 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -30,6 +28,7 @@ public class AppController {
     public TextField tfUrl;
     public Button btDownload;
     public TabPane tpDownloads;
+
     //esto me servirá para ir guardando todas las descargas.
     private Map<String, DownloadController> allDownloads;
 
@@ -75,6 +74,9 @@ public class AppController {
 
             String filename = url.substring(url.lastIndexOf("/") + 1);
             tpDownloads.getTabs().add(new Tab(filename, downloadBox));
+            //Esto me permite añadir un botón de cierre a cada tapPane, sino lo configuro en el SceneBuilder
+            //puedo elegir que se muestre en todas las pestañas, en ninguna o en la selecionada solo.
+            //tpDownloads.setTabClosingPolicy(TabPane.TabClosingPolicy.ALL_TABS);
 
             //cada vez que lance una descarga, la voy a guardar en la lista, así los tengo controlados
             allDownloads.put(url, downloadController);

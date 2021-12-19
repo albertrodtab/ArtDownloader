@@ -58,7 +58,7 @@
       </HBox>
       <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="373.0">
          <children>
-            <Label fx:id="lbDelay" alignment="CENTER" contentDisplay="CENTER" text="Tiempo de espera">
+            <Label fx:id="lbDelay" alignment="CENTER" contentDisplay="CENTER" text="Introduce el Tiempo de espera">
                <VBox.margin>
                   <Insets top="5.0" />
                </VBox.margin></Label>
