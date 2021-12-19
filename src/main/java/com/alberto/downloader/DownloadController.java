@@ -2,13 +2,15 @@ package com.alberto.downloader;
 
 import javafx.concurrent.Worker;
 import javafx.event.ActionEvent;
+import javafx.event.Event;
+import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.scene.control.Alert;
-import javafx.scene.control.Label;
-import javafx.scene.control.ProgressBar;
-import javafx.scene.control.TextField;
+import javafx.scene.Node;
+import javafx.scene.Scene;
+import javafx.scene.control.*;
 import javafx.stage.FileChooser;
+import javafx.stage.Stage;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -122,4 +124,16 @@ public class DownloadController implements Initializable {
             }
         }
     }
+
+    /*Con esto puedo cerrar toda la pantalla*/
+    /*@FXML
+    private void btnCerrar_Click(ActionEvent e) {
+        cerrarVentana(e);
+    }
+
+    public static void cerrarVentana(ActionEvent e) {
+        Node source = (Node) e.getSource();     //Me devuelve el elemento al que hice click
+        Stage stage = (Stage) source.getScene().getWindow();//Me devuelve la ventana donde se encuentra el elemento
+        stage.close();                          //Me cierra la ventana
+    }*/
 }
