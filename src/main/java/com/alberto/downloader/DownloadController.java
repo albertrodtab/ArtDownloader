@@ -96,6 +96,10 @@ public class DownloadController implements Initializable {
             downloadTask.cancel();
         }
     }
+    @FXML
+    public void delete(ActionEvent event) {
+        delete();
+    }
 
     public void delete() {
         if (file != null) {
