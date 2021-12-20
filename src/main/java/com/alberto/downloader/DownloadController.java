@@ -2,15 +2,10 @@ package com.alberto.downloader;
 
 import javafx.concurrent.Worker;
 import javafx.event.ActionEvent;
-import javafx.event.Event;
-import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.scene.Node;
-import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.stage.FileChooser;
-import javafx.stage.Stage;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -95,6 +90,7 @@ public class DownloadController implements Initializable {
         if (downloadTask != null) {
             pbProgress.progressProperty().unbind();
             pbProgress.setProgress(0);
+            logger.info("Cancelado: " + urlText);
             downloadTask.cancel();
         }
     }
@@ -105,6 +101,7 @@ public class DownloadController implements Initializable {
 
     public void delete() {
         if (file != null) {
+            logger.info("Eliminado: " + file);
             file.delete();
         }
     }
