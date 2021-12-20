@@ -7,10 +7,14 @@ import javafx.scene.Scene;
 import javafx.scene.control.ScrollPane;
 import javafx.stage.Stage;
 
+
+
+
 public class App extends Application {
 
     @Override
     public void start(Stage stage) throws Exception {
+
         AppController controller = new AppController();
 
         /*
@@ -27,9 +31,9 @@ public class App extends Application {
         ScrollPane scrollPane = loader.load();
 
         //inicializamos la escena que es como inicializar la ventana, le pasamos el scrollPane donde está el diseño
-        Scene scene = new Scene(scrollPane);
+        Scene scene2 = new Scene(scrollPane);
         //Esto es lo que tienes que inicializar y por último lo pintamos.
-        stage.setScene(scene);
+        stage.setScene(scene2);
         stage.setTitle("ArtDownloader");
         stage.show();
 

@@ -37,15 +37,20 @@ public class AppController {
 
     @FXML
     private ScrollPane scrollPane;
-    public File file;
+    public File defaultFile = new File("C:/Users/alber/Desktop/ArtDownloader");
+    public File file = defaultFile;
 
 
     /*Este método me permite cambiar el directorio por defecto*/
     @FXML
     private void changeDirectory (ActionEvent event) {
         DirectoryChooser directoryChooser = new DirectoryChooser();
+        directoryChooser.setInitialDirectory(defaultFile);
         Stage stage = (Stage) scrollPane.getScene().getWindow();
         file = directoryChooser.showDialog(stage);
+        if (file == null) {
+            file = defaultFile;
+        }
     }
 
 
@@ -85,9 +90,12 @@ public class AppController {
         }
     }
 
-
     @FXML
-    private void stopAllDownloads () {
+    public void stopAllDownloads(ActionEvent event) {
+        stopAllDownloads();
+    }
+
+    private void stopAllDownloads ()  {
         for (DownloadController downloadController : allDownloads.values())
             downloadController.stop();
     }
