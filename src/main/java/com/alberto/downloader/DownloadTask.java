@@ -17,6 +17,7 @@ public class DownloadTask extends Task<Integer> {
 
     private URL url;
     private File file;
+    boolean suspender; //Suspende un hilo cuando es true
 
     private static final Logger logger = LogManager.getLogger(DownloadTask.class);
 

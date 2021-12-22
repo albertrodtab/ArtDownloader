@@ -1,11 +1,15 @@
 package com.alberto.downloader;
 
+import javafx.animation.Animation;
+import javafx.animation.KeyFrame;
+import javafx.animation.Timeline;
 import javafx.concurrent.Worker;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.*;
 import javafx.stage.FileChooser;
+import javafx.util.Duration;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -28,6 +32,7 @@ public class DownloadController implements Initializable {
     private File file;
     private AppController controler;
     private ExecutorService exec;
+    private Timeline timeline = new Timeline();
 
     private static final Logger logger = LogManager.getLogger(DownloadController.class);
 
@@ -45,21 +50,8 @@ public class DownloadController implements Initializable {
 
     }
 
-    @FXML
-    public void start(ActionEvent event) {
+        public void start(){
         try {
-            FileChooser fileChooser = new FileChooser();
-            fileChooser.setInitialDirectory((defaultFile));
-            file = fileChooser.showSaveDialog((tfUrl.getScene().getWindow()));
-            if (file == null)
-                return;
-            try {
-                long delayTime = delay();
-                Thread.sleep(delayTime * 1000);
-            } catch (InterruptedException ie) {
-                Thread.currentThread().interrupt();
-            }
-
             downloadTask = new DownloadTask(urlText, file);
 
             pbProgress.progressProperty().bind(downloadTask.progressProperty());
@@ -75,9 +67,34 @@ public class DownloadController implements Initializable {
             downloadTask.messageProperty().addListener((observableValue, oldValue, newValue) -> lbStatus.setText(newValue));
             exec.execute(downloadTask);
 
-
         }catch (MalformedURLException murle) {
             murle.printStackTrace();
+        }
+    }
+
+    @FXML
+    public void start(ActionEvent event) {
+        logger.info("Inicio proceso descarga, escoge donde guardarla");
+        FileChooser fileChooser = new FileChooser();
+        fileChooser.setInitialDirectory(defaultFile);
+        file = fileChooser.showSaveDialog(tfUrl.getScene().getWindow());
+        if (file == null)
+            return;
+        logger.info("Fin de proceso de escoger donde guardar la descarga");
+
+        int delayTime = delay();
+        logger.info("Retraso de la descarga");
+
+        if (delayTime == 0) {
+            start();
+        } else {
+            timeline = new Timeline (
+                    new KeyFrame(
+                            Duration.seconds(delayTime), actionEvent -> start()
+                    )
+            );
+            timeline.play();
+            logger.info("Fin retraso de la descarga");
         }
     }
 
@@ -88,6 +105,9 @@ public class DownloadController implements Initializable {
 
     public void stop() {
         if (downloadTask != null) {
+            if (timeline.getStatus() == Animation.Status.RUNNING) {
+                timeline.stop();
+            }
             pbProgress.progressProperty().unbind();
             pbProgress.setProgress(0);
             logger.info("Cancelado: " + urlText);
@@ -106,16 +126,20 @@ public class DownloadController implements Initializable {
         }
     }
 
+    public String getUrlText() {
+        return urlText;
+    }
 
-    private long delay() {
+    public int delay() {
         if (delay.getText().equals("")) {
             return 0;
         } else {
             try {
-                if (Integer.parseInt(delay.getText()) <= 0) {
+                if (Integer.parseInt(delay.getText()) > 0) {
+                    return Integer.parseInt(delay.getText());
+                } else {
                     return 0;
                 }
-                return Integer.parseInt(delay.getText());
             } catch (NumberFormatException nfe) {
                 return 0;
             }
