@@ -4,9 +4,9 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<ScrollPane fx:id="scrollPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="692.0" prefWidth="952.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<ScrollPane fx:id="scrollPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="760.0" prefWidth="952.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <content>
-      <VBox fx:id="panel" prefHeight="689.0" prefWidth="949.0">
+      <VBox fx:id="panel" prefHeight="754.0" prefWidth="949.0">
          <children>
             <Label text="Introduce aquí la dirección de la descarga">
                <VBox.margin>
@@ -56,7 +56,7 @@
                <padding>
                   <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                </padding></TabPane>
-            <HBox prefHeight="100.0" prefWidth="200.0">
+            <HBox prefHeight="46.0" prefWidth="909.0">
                <children>
                   <Button fx:id="btDirectory" mnemonicParsing="false" onAction="#changeDirectory" text="Cambiar directorio">
                      <padding>

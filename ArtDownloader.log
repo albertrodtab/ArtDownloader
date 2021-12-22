@@ -129,3 +129,88 @@
 01:17:38.654 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Cancelado: https://git.kernel.org/torvalds/t/linux-5.16-rc4.tar.gz
 01:17:38.657 [pool-2-thread-1] INFO  com.alberto.downloader.DownloadTask - Descarga https://git.kernel.org/torvalds/t/linux-5.16-rc4.tar.gz cancelada
 01:17:39.748 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Eliminado: C:\Users\alber\Desktop\ArtDownloader\linux
+20:39:20.629 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Creado: https://git.kernel.org/torvalds/t/linux-5.16-rc4.tar.gz
+20:39:20.690 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Creado: https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.4.294.tar.xz
+20:39:20.713 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Creado: https://png.pngtree.com/png-clipart/20210309/original/pngtree-christmas-christmas-cartoon-joyful-christmas-png-image_5909752.jpg
+20:40:17.527 [pool-2-thread-1] INFO  com.alberto.downloader.DownloadTask - Descarga https://git.kernel.org/torvalds/t/linux-5.16-rc4.tar.gz iniciada
+20:40:24.528 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Cancelado: https://git.kernel.org/torvalds/t/linux-5.16-rc4.tar.gz
+20:40:49.302 [pool-2-thread-1] INFO  com.alberto.downloader.DownloadTask - Descarga https://git.kernel.org/torvalds/t/linux-5.16-rc4.tar.gz cancelada
+20:54:16.198 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Creado: ‹      ì]ysÜ6–Ï¿ÛŸ‚M•UºuË^Õ$;²|Œ6v¤µ”ÊN%H¢ÙHƒ
+20:54:16.262 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Creado: €}¸¶ö³ï{à’ [Ùq2;w•[Í÷{ÀÃñ.€?‘?sî/(‰¨üìãŽàsqqaþÂ§ûÀ³ÏŽÏŽÏOONÏŽO?ïøìüøô³øWhKï“+M$ˆ”Bè1¾]x·sÿ$Ÿó/IBSýÕÑ<œGGÁÉ³ð(xúìÙÙÅéyDÂùé3zv]óÓèŒÇ“t›?}>Þ‡³4ßLÏgÇSžþ*2Ðž>=¶øÝ±ÿÓ“§§Ÿ?ÿ*­é|~çöß™ÿYÈIOçB&d´»¿äSøÿ³?ù?;>†¹îÌÿùÅ9ð¬Œ}~çó¿çÝß½øÏéÒTÑéM‘€Í•—Þë»7Ó“ÙÑdo²çÙj#?³8—D3‘zsÆéÌ»I5M#yÀÓæþú+ïlf*yP"$õXZ`PüKOQzi`Ï{!ÂC‘A3)BªÔ¡]ÛL*mXZgêò° gœ¯’™?ña$Bux?´WÿB'ü—¸×[No3l€*O¦Óéä*Ä¶¼‘œÛù\Q}éMÏ&WœÅéÕ\1£ésIÂ%"†\€×P
+20:54:16.289 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Creado: sÍVôJ) `Õ¥7'\ÑË
+20:54:16.314 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Creado: -,†¶æÙ3L/UH2}K×`´À7t®½=ï»t™ŠuêiÑøéÌ?)
+20:54:16.342 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Creado: “$? „–y)ñAÕÄ×Eð·šÃÅ¾î 
+20:54:16.366 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Creado: 	…^©Û¹Õ¤Ûô[ºÑo@~«ÀýBHýœ‹p©nÓ«{¨—S7Ó5Qô
+20:54:16.392 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Creado: 	(ßÅø*OC3¾oEj³ÝÌïA]¨éÃŽß‘
+20:54:16.413 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Creado: ñ¬ÉV=—”,ÍL¾ s–2”þŽê\¦Û¬‘ÜfcxNa&èÛœkjz¯%HV¡4É8ôÂ5÷ÏYz:u%ã¼œ(3‰%¹™¦Š
+20:54:16.436 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Creado: H¿—$Ë@ÖåÄóL+AÁU]cE©–‚×Ã×?_¦yÒ!USRŠ*©ßBTRÛäÛàçk«??ª`,ò°+ò»´Å¸W´c_©Ñ­QùsPyÏ+ÆýšèpÑÔV_ÂEC»IÑÝ™!³Fgï>ãL¿L2½m÷x‡­µJ¾£¡?Ñ//×ÍE-5… rkL]T£?6CÙÍkˆx"™ìYÐMº ’i’†ýÙ=Ðá0Emé¥ò":73ÝBÞ UÎ>€Â–³dÉ+Û4ÀéY%Ó4£>ÿNVä£<ºJS¡;¦…\…U¾aÀÄ
+20:54:16.459 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Creado: º<OÒ7,a ¤ÏŽ&¥›¼“$NpíÿÍ»ùþ¯ßy™!\îOö€¦M×ó§7ˆîÎ‚Óº_kœÔ­„wTÚË]ªPçïY¤AïŸ!“†ìÎô¹
+20:54:54.473 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Creado: https://git.kernel.org/torvalds/t/linux-5.16-rc4.tar.gz
+20:54:54.483 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Creado: https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.4.294.tar.xz
+20:54:54.492 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Creado: https://png.pngtree.com/png-clipart/20210309/original/pngtree-christmas-christmas-cartoon-joyful-christmas-png-image_5909752.jpg
+20:55:07.656 [pool-2-thread-1] INFO  com.alberto.downloader.DownloadTask - Descarga https://git.kernel.org/torvalds/t/linux-5.16-rc4.tar.gz iniciada
+20:55:28.086 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Cancelado: https://git.kernel.org/torvalds/t/linux-5.16-rc4.tar.gz
+20:55:28.113 [pool-2-thread-1] INFO  com.alberto.downloader.DownloadTask - Descarga https://git.kernel.org/torvalds/t/linux-5.16-rc4.tar.gz cancelada
+20:56:16.380 [pool-2-thread-2] INFO  com.alberto.downloader.DownloadTask - Descarga https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.4.294.tar.xz iniciada
+20:56:16.430 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Creado: 
+20:56:20.277 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Cancelado: https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.4.294.tar.xz
+20:56:20.279 [pool-2-thread-2] INFO  com.alberto.downloader.DownloadTask - Descarga https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.4.294.tar.xz cancelada
+20:56:21.472 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Eliminado: C:\Users\alber\Desktop\ArtDownloader\linux.xz
+21:22:31.636 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Creado: https://git.kernel.org/torvalds/t/linux-5.16-rc4.tar.gz
+21:22:31.693 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Creado: https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.4.294.tar.xz
+21:22:31.719 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Creado: https://png.pngtree.com/png-clipart/20210309/original/pngtree-christmas-christmas-cartoon-joyful-christmas-png-image_5909752.jpg
+21:23:27.665 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Creado: https://git.kernel.org/torvalds/t/linux-5.16-rc4.tar.gz
+21:23:27.711 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Creado: https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.4.294.tar.xz
+21:23:27.730 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Creado: https://png.pngtree.com/png-clipart/20210309/original/pngtree-christmas-christmas-cartoon-joyful-christmas-png-image_5909752.jpg
+21:23:45.858 [pool-2-thread-1] INFO  com.alberto.downloader.DownloadTask - Descarga https://git.kernel.org/torvalds/t/linux-5.16-rc4.tar.gz iniciada
+21:24:46.067 [pool-2-thread-1] INFO  com.alberto.downloader.DownloadTask - Descarga https://git.kernel.org/torvalds/t/linux-5.16-rc4.tar.gz finalizada
+21:26:10.069 [pool-2-thread-2] INFO  com.alberto.downloader.DownloadTask - Descarga https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.4.294.tar.xz iniciada
+21:26:25.646 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Eliminado: C:\Users\alber\Desktop\ArtDownloader\linux xz
+21:26:26.345 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Cancelado: https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.4.294.tar.xz
+21:26:26.351 [pool-2-thread-2] INFO  com.alberto.downloader.DownloadTask - Descarga https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.4.294.tar.xz cancelada
+21:33:21.216 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Creado: https://git.kernel.org/torvalds/t/linux-5.16-rc4.tar.gz
+21:33:21.281 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Creado: https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.4.294.tar.xz
+21:33:21.312 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Creado: https://png.pngtree.com/png-clipart/20210309/original/pngtree-christmas-christmas-cartoon-joyful-christmas-png-image_5909752.jpg
+21:33:28.522 [pool-2-thread-1] INFO  com.alberto.downloader.DownloadTask - Descarga https://git.kernel.org/torvalds/t/linux-5.16-rc4.tar.gz iniciada
+21:33:50.062 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Cancelado: https://git.kernel.org/torvalds/t/linux-5.16-rc4.tar.gz
+21:33:50.082 [pool-2-thread-1] INFO  com.alberto.downloader.DownloadTask - Descarga https://git.kernel.org/torvalds/t/linux-5.16-rc4.tar.gz cancelada
+21:33:56.363 [pool-2-thread-2] INFO  com.alberto.downloader.DownloadTask - Descarga https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.4.294.tar.xz iniciada
+21:34:23.875 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Cancelado: https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.4.294.tar.xz
+21:34:23.929 [pool-2-thread-2] INFO  com.alberto.downloader.DownloadTask - Descarga https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.4.294.tar.xz cancelada
+21:34:24.673 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Eliminado: C:\Users\alber\Desktop\ArtDownloader\linux xz
+21:42:01.061 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Creado: https://git.kernel.org/torvalds/t/linux-5.16-rc4.tar.gz
+21:42:01.156 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Creado: https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.4.294.tar.xz
+21:42:01.184 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Creado: https://png.pngtree.com/png-clipart/20210309/original/pngtree-christmas-christmas-cartoon-joyful-christmas-png-image_5909752.jpg
+21:42:15.255 [pool-2-thread-1] INFO  com.alberto.downloader.DownloadTask - Descarga https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.4.294.tar.xz iniciada
+21:42:28.971 [pool-2-thread-2] INFO  com.alberto.downloader.DownloadTask - Descarga https://git.kernel.org/torvalds/t/linux-5.16-rc4.tar.gz iniciada
+21:42:39.539 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Cancelado: https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.4.294.tar.xz
+21:42:39.540 [pool-2-thread-1] INFO  com.alberto.downloader.DownloadTask - Descarga https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.4.294.tar.xz cancelada
+21:42:40.608 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Eliminado: C:\Users\alber\Desktop\ArtDownloader\alberto
+21:42:43.595 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Cancelado: https://git.kernel.org/torvalds/t/linux-5.16-rc4.tar.gz
+21:42:44.400 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Eliminado: C:\Users\alber\Desktop\ArtDownloader\linux
+21:43:13.431 [pool-2-thread-2] INFO  com.alberto.downloader.DownloadTask - Descarga https://git.kernel.org/torvalds/t/linux-5.16-rc4.tar.gz cancelada
+22:47:51.891 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Creado: https://git.kernel.org/torvalds/t/linux-5.16-rc4.tar.gz
+22:47:51.959 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Creado: https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.4.294.tar.xz
+22:47:51.989 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Creado: https://png.pngtree.com/png-clipart/20210309/original/pngtree-christmas-christmas-cartoon-joyful-christmas-png-image_5909752.jpg
+22:48:17.203 [pool-2-thread-1] INFO  com.alberto.downloader.DownloadTask - Descarga https://git.kernel.org/torvalds/t/linux-5.16-rc4.tar.gz iniciada
+22:49:20.172 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Cancelado: https://git.kernel.org/torvalds/t/linux-5.16-rc4.tar.gz
+22:49:20.191 [pool-2-thread-1] INFO  com.alberto.downloader.DownloadTask - Descarga https://git.kernel.org/torvalds/t/linux-5.16-rc4.tar.gz cancelada
+22:49:21.423 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Eliminado: C:\Users\alber\Desktop\ArtDownloader\linux
+23:29:22.170 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Creado: https://git.kernel.org/torvalds/t/linux-5.16-rc4.tar.gz
+23:29:22.223 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Creado: https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.4.294.tar.xz
+23:29:22.247 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Creado: https://png.pngtree.com/png-clipart/20210309/original/pngtree-christmas-christmas-cartoon-joyful-christmas-png-image_5909752.jpg
+23:29:25.313 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Inicio proceso descarga, escoge donde guardarla
+23:29:31.185 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Fin de proceso de escoger donde guardar la descarga
+23:29:31.186 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Retraso de la descarga
+23:29:31.191 [pool-2-thread-1] INFO  com.alberto.downloader.DownloadTask - Descarga https://git.kernel.org/torvalds/t/linux-5.16-rc4.tar.gz iniciada
+23:29:51.993 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Inicio proceso descarga, escoge donde guardarla
+23:29:57.696 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Fin de proceso de escoger donde guardar la descarga
+23:29:57.696 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Retraso de la descarga
+23:29:57.697 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Fin retraso de la descarga
+23:30:00.714 [pool-2-thread-2] INFO  com.alberto.downloader.DownloadTask - Descarga https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.4.294.tar.xz iniciada
+23:30:14.359 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Cancelado: https://git.kernel.org/torvalds/t/linux-5.16-rc4.tar.gz
+23:30:14.361 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Cancelado: https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.4.294.tar.xz
+23:30:14.375 [pool-2-thread-1] INFO  com.alberto.downloader.DownloadTask - Descarga https://git.kernel.org/torvalds/t/linux-5.16-rc4.tar.gz cancelada
+23:30:14.376 [pool-2-thread-2] INFO  com.alberto.downloader.DownloadTask - Descarga https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.4.294.tar.xz cancelada
+23:30:18.883 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Eliminado: C:\Users\alber\Desktop\ArtDownloader\2
+23:30:20.599 [JavaFX Application Thread] INFO  com.alberto.downloader.DownloadController - Eliminado: C:\Users\alber\Desktop\ArtDownloader\linux
